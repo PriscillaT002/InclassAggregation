@@ -13,6 +13,7 @@ public class OneCard {
      }
      public void setOwner(Student s){
         this.owner = s;
+        System.out.println(this.owner.classYear);
      }
      
 }
